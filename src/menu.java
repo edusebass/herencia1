@@ -1,4 +1,4 @@
-
+import javax.swing.plaf.FontUIResource;
 
 public class menu {
     public static void main(String[] args) {
@@ -30,6 +30,22 @@ public class menu {
         System.out.println("Tiene " + Ana.getEdad() + " años");
         System.out.println("Es de signo " + Ana.getSigno());
         Ana.examinar();
+
+        //
+        EmpleadoPublico Pablo = new EmpleadoPublico();
+        Pablo.setNombre("Pablo");
+        Pablo.setTelefono("123456");
+
+        System.out.println("\n" + Pablo.getNombre() + " es empleado publico");
+        System.out.println("Su telefono es " + Pablo.getTelefono());
+        Pablo.tramitar();
+
+        //
+        Futbolista Maritza = new Futbolista();
+        Maritza.setNombre("Maritza");
+        Maritza.setHoras_ent(5);
+
+
 
 
     }
