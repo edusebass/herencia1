@@ -49,6 +49,11 @@ public class menu {
         System.out.println("Entrena " + Maritza.getHoras_ent() + " horas diarias");
         Maritza.correr();
 
+        //
+        Estudiante Melani = new Estudiante();
+        Melani.setNombre("Melani");
+        Melani.setSemestre("3 semestre");
+
 
 
 
