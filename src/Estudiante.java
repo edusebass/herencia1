@@ -56,6 +56,7 @@ public class Estudiante extends Persona{
         this.carrera = carrera;
     }
 
+    //metodo
     public void estudiar() {
         System.out.println("Metodo estudiar que pertencece a estudiante");
     }
@@ -65,4 +66,7 @@ public class Estudiante extends Persona{
     public void memorizar() {
         System.out.println("Metodo memorizar que pertenece a estudiante");
     }
+
+
+
 }

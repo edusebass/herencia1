@@ -54,6 +54,10 @@ public class menu {
         Melani.setNombre("Melani");
         Melani.setSemestre("3 semestre");
 
+        System.out.println("\n" + Melani.getNombre() + " es estudiante");
+        System.out.println("Esta en " + Melani.getSemestre());
+        Melani.leer();
+
 
 
 
