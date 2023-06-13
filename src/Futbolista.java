@@ -60,5 +60,8 @@ public class Futbolista extends Persona{
         this.horas_ent = horas_ent;
     }
 
-    //
+    //Metodos
+    public void correr() {
+        System.out.println("Este es el metodo correr");
+    }
 }

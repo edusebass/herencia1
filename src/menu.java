@@ -45,6 +45,10 @@ public class menu {
         Maritza.setNombre("Maritza");
         Maritza.setHoras_ent(5);
 
+        System.out.println("\n" + Maritza.getNombre() + " es futbolista");
+        System.out.println("Entrena " + Maritza.getHoras_ent() + " horas diarias");
+        Maritza.correr();
+
 
 
 
